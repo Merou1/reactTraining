@@ -1,0 +1,147 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+.card{
+  border: 1px solid lightskyblue;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px  hsla(0, 0%, 0%, 0.1) ;
+  max-width: 250px;
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+}
+
+.welcome-message {
+  font-size: 2.5 rem;
+  background-color: hsl(120, 100%, 42%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+.login-prompt {
+  font-size: 2.5 rem;
+  background-color: hsl(0, 100%, 42%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+img{
+  max-width: 60%;
+  height: auto;
+  margin-top: 3px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px  hsla(0, 0%, 0%, 0.2) ;
+  border: 1px solid lightskyblue ;
+
+}
+.card .card-text{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.listCategory {
+  color: white;
+  font-weight: 900;
+  text-align: center;
+  border: 3px solid white;
+  background-color: black;
+  box-shadow: 5px 5px 10px  hsla(1, 0%, 0%, 0.5) ;
+
+
+}
+
+.listItems {
+  color:white;
+  font-weight: bolder;
+  text-decoration: underline;
+  list-style: none;
+  text-align: center;
+  box-shadow: 5px 5px 10px  hsla(1, 0%, 0%, 0.5) ;
+  background-color: lightsalmon;
+
+
+}
+
+.listItems  :hover {
+  color: black;
+}
+
+.List {
+  border: 1px solid black;
+  box-shadow: 5px 5px 10px  hsla(0, 0%, 0%, 0.2) ;
+  max-width: 50%;
+  height: auto;
+  margin: 20px;
+  padding: 20px;
+  background-color: lightsalmon;
+
+  
+}
