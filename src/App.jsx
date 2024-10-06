@@ -7,9 +7,7 @@ import UserGreeting from "./UserGreeting.jsx";
 import List from "./List.jsx"
 import Button from "./Button.jsx";
 import Image from "./Image.jsx";
-
-
-
+import Counter from "./Counter.jsx";
 
   function App() {
     const fruits = [
@@ -35,6 +33,7 @@ import Image from "./Image.jsx";
       <Card></Card>
       <Card></Card>
       <Card></Card>
+      <Counter></Counter>
       <Button></Button>
       {fruits.length > 0 ? <List category="Fruits" items={fruits}/> : alert("Empty-Fruits-List") }
       {vegetables.length > 0 ? <List category="Vegetables" items={vegetables}/> : alert("Empty-Vegetables-List")}
