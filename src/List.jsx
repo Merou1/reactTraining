@@ -19,5 +19,15 @@ List.defaultProps = {
     category : "category",
     items : [] //because items is an array so the default prop should match the prop type 
 }
+List.propTypes = {
+    category : propTypes.string,
+    items : propTypes.arrayOf(propTypes.shape(
+        {
+            id:propTypes.number,
+            name:propTypes.string,
+            calories:propTypes.string
+        }
+    ))
+}
 
 export default List;
