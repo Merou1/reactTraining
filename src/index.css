@@ -151,6 +151,10 @@ img{
   margin: 10px;
   background-color: darkturquoise;
   color: white;
+  cursor: pointer;
+  
+  /* Adding transition for smooth hover effect */
+  transition: background-color 0.4s ease, transform 0.4s ease;
 
 }
 .counterButtons:hover{

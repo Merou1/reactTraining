@@ -8,6 +8,8 @@ import List from "./List.jsx"
 import Button from "./Button.jsx";
 import Image from "./Image.jsx";
 import Counter from "./Counter.jsx";
+import Store from "./Store.jsx";
+
 
   function App() {
     const fruits = [
@@ -29,6 +31,7 @@ import Counter from "./Counter.jsx";
       <>
       <Header/>
       <Image></Image>
+      <Store></Store>
       <Card></Card>
       <Card></Card>
       <Card></Card>
