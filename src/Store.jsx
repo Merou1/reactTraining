@@ -43,11 +43,11 @@ function Store(){
             <p>Payment by: {payment}</p>
 
             <label htmlFor="pickup">
-            <input type="radio" name="pickup" id="" checked={shipping==="pickup"} onChange={e => handleShippingChange(e)} />
+            <input type="radio" name="pickup" id="" value="pickup" checked={shipping==="pickup"} onChange={e => handleShippingChange(e)} />
                 Pick up
             </label>
             <label htmlFor="delivery">
-            <input type="radio" name="delivery" id="" checked={shipping==="delivery"} onChange={e => handleShippingChange(e)} />
+            <input type="radio" name="delivery" id="" value="delivery" checked={shipping==="delivery"} onChange={e => handleShippingChange(e)} />
                 Delivery
             </label>
             <p>Shipping : {shipping} </p>

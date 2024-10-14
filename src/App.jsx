@@ -9,6 +9,14 @@ import Button from "./Button.jsx";
 import Image from "./Image.jsx";
 import Counter from "./Counter.jsx";
 import Store from "./Store.jsx";
+import ColorPicker from "./ColorPicker.jsx";
+import Car from "./Car.jsx";
+import FoodArray from "./FoodArray.jsx";
+import CarObjects from "./CarObjects.jsx";
+
+
+
+
 
 
   function App() {
@@ -30,13 +38,17 @@ import Store from "./Store.jsx";
     return(
       <>
       <Header/>
+      <FoodArray></FoodArray>
       <Image></Image>
+      <CarObjects></CarObjects>
       <Store></Store>
       <Card></Card>
       <Card></Card>
       <Card></Card>
       <Card></Card>
+      <Car></Car>
       <Counter></Counter>
+      <ColorPicker></ColorPicker>
       <Button></Button>
       {fruits.length > 0 ? <List category="Fruits" items={fruits}/> : alert("Empty-Fruits-List") }
       {vegetables.length > 0 ? <List category="Vegetables" items={vegetables}/> : alert("Empty-Vegetables-List")}
